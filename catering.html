@@ -8,7 +8,7 @@
   <meta name="description" content="Indian Chinese Delivery in Downtown Manhattan">
   <meta name="author" content="Dasmer Singh">
 
-  <title>Chinese Dhaba - Gallery</title>
+  <title>Chinese Dhaba - Catering</title>
 
   <!-- start Mixpanel -->
   <script type="text/javascript">(function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,
@@ -42,8 +42,8 @@
   <link href="css/one-page-wonder.min.css" rel="stylesheet">
   <link href="restaurant-specific/menu-style.css" rel="stylesheet">
   <style>
-  body {
-    padding-top: 65px;
+  header.masthead{
+      background-image: url("images/catering.jpg")
   }
 </style>
 
@@ -75,47 +75,12 @@
   </nav>
   <!-- Navigation -->
 
-  <!-- Gallery -->
-    <div class="mt-5 row text-center text-lg-left">
+  <!-- <div class="container text-center">
+    <img src="images/catering.jpg" class="img-fluid rounded">
+  </div> -->
 
-      <div class="col-lg-3 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/veg-hakka-noodles.jpg" alt="Vegetable Hakka Noodles">
-            </a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/lollipop-chicken.jpg" alt="Lollipop Chicken">
-            </a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/chicken-fried-rice.jpg" alt="Chicken Fried Rice">
-            </a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/veg-manchurian.jpg" alt="Vegetable Manchurian">
-            </a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/hot-garlic-shrimp.jpg" alt="Hot Garlic Shrimp">
-            </a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/chicken-manchurian.jpg" alt="Chicken Manchurian">
-            </a>
-      </div>
-      <div class="col-lg-3 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-              <img class="img-fluid img-thumbnail" src="images/veg-fried-rice.jpg" alt="Vegetable Fried Rice">
-            </a>
-      </div>
-    </div>
-  <!-- Gallery -->
-
+  <header class="masthead text-center text-white">
+  </header>
 
   <!-- Contact Container -->
   <div class="container text-center">
@@ -123,6 +88,37 @@
     <a href="tel:1-929-265-8135" class="btn btn-primary rounded-pill m-3">(929) 265 8135</a>
   </div>
   <!-- Contact Container -->
+
+  <!-- Form -->
+  <div class="container text-left">
+    <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+        <div class="form-group">
+        <label for="name-control">Name</label>
+        <input name="name" type="text" id='name-control' class="form-control" placeholder="Mary Poppins" required>
+      </div>
+      <div class="form-group">
+        <label for="phone-control">Phone number</label>
+        <input name="phone" type="tel" id='phone-control' class="form-control" placeholder="555 555 5555" required>
+      </div>
+      <div class="form-group">
+        <label for="date-control">Event date</label>
+        <input name="event-date" type="date" id='date-control' class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="headcount-control">Headcount</label>
+        <input name="headcount" type="number" id='headcount-control' class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="details-control">Event details (optional)</label>
+        <textarea name="details" id='details-control' class="form-control" rows="4" cols="50"></textarea>
+      </div>
+      <div class="m-5 text-center">
+      <input type="submit" value="Submit" class="btn btn-primary center-block">
+      </div>
+      <!-- <input type="reset" value="Clear"> -->
+    </form>
+  </div>
+  <!-- Form -->
 
   <!-- Footer -->
   <footer class="py-5 bg-black">
